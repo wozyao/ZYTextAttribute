@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [ZYTextAttribute properView:self.lifeLabel rangeDictArray:@[@{RANGEKEY : [NSValue valueWithRange:[self.lifeLabel.text rangeOfString:@"生命"]], COLORKEY : [UIColor redColor], FONTKEY : [UIFont systemFontOfSize:18.0]}, @{RANGEKEY : [NSValue valueWithRange:[self.lifeLabel.text rangeOfString:@"得到"]], COLORKEY : [UIColor greenColor], UNDERLINESTYLEKEY : [NSNumber numberWithInteger:NSUnderlineStyleSingle]}]];
+    
 }
 
 
